@@ -11,5 +11,5 @@ def passgen(length):
         return result
 
 
-length=int(input('How many characters in your password? = '))
+length=int(input('How many characters would you like to be in your password? : '))
 print(passgen(length))
