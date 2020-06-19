@@ -17,4 +17,5 @@ while True:
         except ValueError:
                 print("Input wasn't an integer. Try again...")
 
+
 print(passgen(length))
