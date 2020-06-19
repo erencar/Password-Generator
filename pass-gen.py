@@ -10,6 +10,12 @@ def passgen(length):
         result= "".join(random.choice(chars) for _ in range(length))
         return result
 
+while True:
+        try:
+                length=int(input('How many characters in your password? = '))
+                break
+        except ValueError:
+                print("Input wasn't an integer. Try again...")
 
-length=int(input('How many characters would you like to be in your password? : '))
+
 print(passgen(length))
